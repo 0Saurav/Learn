@@ -1,0 +1,14 @@
+# FizzBuzz
+
+print("Welcome to FizzBuzz Challenge")
+
+for number in range(1, 101):
+    if number % 5 == 0 and number % 3 == 0:
+        number = "FizzBuzz"
+    elif number % 5 == 0:
+        print("Buzz")
+    elif number % 3 == 0:
+        print("Fizz")
+    else:
+        number = number
+    print(number)
