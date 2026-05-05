@@ -143,3 +143,5 @@ while not at_goal():
         move()
     
 # Day 6 project: Solve Maze problem in the Reeborg's world
+
+ done
