@@ -1,4 +1,4 @@
-# Secret Auction: Highest bidder wins, First come first win in event of tie
+# Secret Auction: Highest bidder wins, First come first win in event of tie (ties goes to the first bidder as winner)
 # Secret Auction
 
 print("Welcome to Secret Auction.")
@@ -24,7 +24,7 @@ bidders = {}
 bid_on = True
 while bid_on:
     bidder = str(input("What is your name: "))
-    bid_amount = float(input("How much you want to bid: $ "))
+    bid_amount = int(input("How much you want to bid: $ "))
 
     bidders[bidder] = bid_amount
     more_bidders = str(input("Is there any more bidder. Type 'yes' or 'no': ")).lower()
