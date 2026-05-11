@@ -77,3 +77,58 @@ for thing in programming_dictionary:
     print(programming_dictionary[thing])
 
 
+
+
+print("\n")
+
+print("Nesting Lists and DIctionaries")
+
+"""
+{
+Key: [List],
+Key2: {Dict},
+}
+"""
+
+
+
+
+capitals = {
+    "France": "Paris",
+    "Germany": "Berlin"
+}
+
+# Nested list in Dictionary
+
+travel_log = {
+    "France": ["Paris", "Lille", "Dijon"],
+    "Germany": ["Stuttgart", "Berlin"],
+}
+# Print Lille
+
+print(travel_log["France"][1])
+
+nested_list = ["A", "B", ["C", "D"]]
+print(nested_list[2][0])
+
+
+
+
+travel_log = {
+    "France": {
+        "num_types_visited": 8,
+        "cities_visited": ["Paris", "Lille", "Dijon"],
+
+    },
+    "Germany": {
+        "num_types_visited": 5,
+        "cities_visited": ["Stuttgart", "Berlin"],
+    },
+}
+
+# Access Stuttgart
+
+print(travel_log["Germany"]["cities_visited"][0])
+
+# Inside travel log, inside germany, inside cities_visited, first index value
+
