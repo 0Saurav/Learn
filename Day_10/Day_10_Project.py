@@ -46,3 +46,4 @@ while calculation_on:
     elif choice == 'n':
         calculation_on = True
         n1_fresh = True
+
